@@ -191,7 +191,7 @@ def wonGame():
     gameOn = 0
     messagebox.showinfo("Zwyciestwo!", "Good Game, Well Played!")
 
-# Right click-   9= unclicked      10= flag     11= question mark
+# Right click event
 def rightClick(x, y, event):
     """
     Commanded function binded to buttons, which are fields on
@@ -304,7 +304,7 @@ def clickedField(x, y):
 def newGame():
     """
     Validating entries' data.
-    Clearing board and entries.
+    Clearing board and entries (if wanted by user).
     Filling onScreenValues with 9s (unclicked field),
     creating two-dimensional list board for information
     if board[x][y] == 1 (there is a bomb) and creating
@@ -372,7 +372,7 @@ def enter(event):
 
 root.bind("<Return>", enter)
 
-newGameButton = Button(root, text = "START A NEW GAME!", command =lambda: newGame(), height = 2, width = 40)
+newGameButton = Button(root, text = "Start!", command =lambda: newGame(), height = 2, width = 40)
 newGameButton.grid(row = 2, column = 0)
 
 
