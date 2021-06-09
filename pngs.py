@@ -5,6 +5,8 @@ from PIL import ImageTk, Image
 
 flagImg = ImageTk.PhotoImage(Image.open("flag.png").resize((17, 17), Image.ANTIALIAS))
 bombsImg = ImageTk.PhotoImage(Image.open("bomb.png").resize((21, 21), Image.ANTIALIAS))
+eraserImg = ImageTk.PhotoImage(Image.open("eraser.png").resize((21, 21), Image.ANTIALIAS))
+
 
 fieldSize = 14
 
