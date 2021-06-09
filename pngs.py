@@ -3,9 +3,9 @@ from tkinter import messagebox
 
 from PIL import ImageTk, Image
 
-flagImg = ImageTk.PhotoImage(Image.open("flag.png").resize((17, 17), Image.ANTIALIAS))
-bombsImg = ImageTk.PhotoImage(Image.open("bomb.png").resize((21, 21), Image.ANTIALIAS))
-eraserImg = ImageTk.PhotoImage(Image.open("eraser.png").resize((21, 21), Image.ANTIALIAS))
+flagImg = ImageTk.PhotoImage(Image.open("img/flag.png").resize((17, 17), Image.ANTIALIAS))
+bombsImg = ImageTk.PhotoImage(Image.open("img/bomb.png").resize((21, 21), Image.ANTIALIAS))
+eraserImg = ImageTk.PhotoImage(Image.open("img/eraser.png").resize((21, 21), Image.ANTIALIAS))
 
 
 fieldSize = 14
@@ -14,5 +14,5 @@ fieldSize = 14
 #            12= bomb     13= bomb that was clicked      14= incorrectly flagged bomb      15= dark unclicked
 clicked = list()
 for i in range(16):
-    temp = ImageTk.PhotoImage(Image.open(str(i) + ".png").resize((fieldSize, fieldSize), Image.ANTIALIAS))
+    temp = ImageTk.PhotoImage(Image.open("img/" + str(i) + ".png").resize((fieldSize, fieldSize), Image.ANTIALIAS))
     clicked.append(temp)

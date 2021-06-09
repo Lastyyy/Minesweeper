@@ -7,6 +7,7 @@ import help
 import minesweeperExceptions as msExc
 
 root = Tk()
+root.iconbitmap('img/mine.ico')
 
 import pngs
 
@@ -25,8 +26,10 @@ wymiaryLabel.grid(row=0, column=1, columnspan=3)
 
 entryN = Entry(menuFrame, width=3)
 entryN.grid(row=1, column=1)
+entryN.insert(END, '15')
 entryM = Entry(menuFrame, width=3)
 entryM.grid(row=1, column=3)
+entryM.insert(END, '15')
 
 nxmLabel = Label(menuFrame, text="x")
 nxmLabel.grid(row=1, column=2)
@@ -37,8 +40,10 @@ minyCol = 5
 minyStartLabel = Label(menuFrame, text="Miny:")
 minyStartLabel.grid(row = 0, column = minyCol)
 
+
 minyStart = Entry(menuFrame, width=4)
 minyStart.grid(row = 1, column = minyCol)
+minyStart.insert(END, '30')
 
 # Erase the entries checkbox
 eraserCol = 7
