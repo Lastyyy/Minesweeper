@@ -277,7 +277,7 @@ def clickedField(x, y):
         xy = x*m + y
                         # 9= unclicked       11= question mark      15 = dark unclicked
         if onScreenValues[xy] == 9 or onScreenValues[xy] == 11 or onScreenValues[xy] == 15:
-            if board[x][y] == 1 and firstClick == 1:
+            if board[x][y] == 1 and firstClick == 1 and bombs != n*m:
                 firstClick = 0
                 while board[x][y] == 1:
                     help.clearBoard(board, n, m, onScreenValues)
