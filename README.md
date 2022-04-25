@@ -7,6 +7,10 @@ Minesweeper is a classic single-player video game, whose objective is to clear a
 - Python 3.9
 - Tkinter
 
+## Setup
+
+To run the game, simply install it with the [executable file](Minesweeper.exe)
+
 ## Game
 
 The player can decide for himself how big the game board should be (0> n, m > 15), as well as the number of mines (from 0 to n*m).
