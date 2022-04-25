@@ -9,7 +9,9 @@ Minesweeper is a classic single-player video game, whose objective is to clear a
 
 ## Setup
 
-To run the game, simply install it with the [executable file](Minesweeper.exe)
+To run the game, simply install it with the [executable file.](Minesweeper.exe)
+
+You will find Minesweeper.exe in Minesweeper folder.
 
 ## Game
 
@@ -34,6 +36,6 @@ Unveiling all fields not containing the mines or marking all mines with flags en
 
 ## Xyzzy
 
-'Xyzzy' is a cheat code, which - after being written by player - turns all fields with mines to the grey ones.
+'xyzzy' is a cheat code, which - after being written by player - turns all fields with mines to the grey ones.
 
 ![](img/read5.png)
