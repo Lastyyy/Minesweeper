@@ -11,7 +11,7 @@ Minesweeper is a classic single-player video game, whose objective is to clear a
 
 To run the game, simply install it with the [executable file.](Minesweeper.exe)
 
-You will find Minesweeper.exe in Minesweeper folder.
+You will find Minesweeper.exe in the Minesweeper folder.
 
 ## Game
 
